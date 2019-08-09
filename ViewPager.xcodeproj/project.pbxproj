@@ -12,6 +12,8 @@
 		ED8DF0A022FC9410005DE558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8DF09E22FC9410005DE558 /* Main.storyboard */; };
 		ED8DF0A222FC9412005DE558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8DF0A122FC9412005DE558 /* Assets.xcassets */; };
 		ED8DF0A522FC9412005DE558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8DF0A322FC9412005DE558 /* LaunchScreen.storyboard */; };
+		ED8DF0AD22FCA631005DE558 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8DF0AC22FCA631005DE558 /* Slide.swift */; };
+		ED8DF0AF22FCA65E005DE558 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8DF0AE22FCA65E005DE558 /* Slide.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ED8DF0A122FC9412005DE558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED8DF0A422FC9412005DE558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED8DF0A622FC9412005DE558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8DF0AC22FCA631005DE558 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		ED8DF0AE22FCA65E005DE558 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				ED8DF0A122FC9412005DE558 /* Assets.xcassets */,
 				ED8DF0A322FC9412005DE558 /* LaunchScreen.storyboard */,
 				ED8DF0A622FC9412005DE558 /* Info.plist */,
+				ED8DF0AC22FCA631005DE558 /* Slide.swift */,
+				ED8DF0AE22FCA65E005DE558 /* Slide.xib */,
 			);
 			path = ViewPager;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				ED8DF0A522FC9412005DE558 /* LaunchScreen.storyboard in Resources */,
 				ED8DF0A222FC9412005DE558 /* Assets.xcassets in Resources */,
 				ED8DF0A022FC9410005DE558 /* Main.storyboard in Resources */,
+				ED8DF0AF22FCA65E005DE558 /* Slide.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED8DF0AD22FCA631005DE558 /* Slide.swift in Sources */,
 				ED8DF09D22FC9410005DE558 /* ViewController.swift in Sources */,
 				ED8DF09B22FC9410005DE558 /* AppDelegate.swift in Sources */,
 			);
@@ -283,7 +291,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q3M5SLHJL;
 				INFOPLIST_FILE = ViewPager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +310,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q3M5SLHJL;
 				INFOPLIST_FILE = ViewPager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
